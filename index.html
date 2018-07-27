@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,96 +9,59 @@
 
     <!-- Add links to Reset stylesheet, CSS stylesheet, Bootstrap, jQuery -->
     <link rel="stylesheet" href="assets/css/reset.css">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 
-    <link rel= "stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+
 <body>
-    
+
     <div class="container">
-        
-            <row>
-                <div class="col-md-5">
-                <div class="col-md-2">
-                    
-                    <strong><button type="button" class="btn start">Start</strong></button>
-                </div>
-                <div class="col-md-5"></div>
-            </row>
-            <row>
-                <div class="col-md-12">
-                    <h2><div id="time-holder"></div></h2>
-                </div>
-            </row>
-             <row>
-                <div class="col-md-12">
-                    <h2><div id="question-holder"></div></h2>
-                    <h2><div id="answer-holder"></div></h2>
-                </div>
-            </row>
-            <row>
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
-                    <h2><div id="image-holder"></div></h2>
-                </div>
-                <div class="col-md-4"></div>
-            </row>
-            <row>
-                <div class="col-md-12">
-                    <h2><div id="choice-holder-1"></div></h2>
-                </div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
-                    <h2><div id="correct-holder"></div></h2>
-                </div>
-                <div class="col-md-4"></div>
-            <row>
-                <div class="col-md-12">
-                    <h2><div id="choice-holder-2"></div></h2>
-                </div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
-                    <h2><div id="incorrect-holder"></div></h2>
-                </div>
-                <div class="col-md-4"></div>
-            </row>
-            <row>
-                <div class="col-md-12">
-                    <h2><div id="choice-holder-3"></div></h2>
-                </div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
-                    <h2><div id="unanswered-holder"></div></h2>
-                </div>
-                <div class="col-md-4"></div>
-            </row>
-            <row>
-                <div class="col-md-12">
-                    <h2><div id="choice-holder-4"></div></h2>
-                </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <h2><div id="restart-holder"></div></h2>
-                </div>
-                <div class="col-md-2"></div>
-            </row>
+
+        <row>
+
+            <div class="col-md-2">
+                <strong>
+                    <button type="button" class="btn start">Start</strong>
+                </button>
+            </div>
+
+        </row>
+
+        <!-- Question page -->
+             <div id=timeLeft></div>
+             <div id=currentQuestion></div>
+             <div class="question"></div>
+             <div class="answerList"></div>
+
+        <!-- Answers -->
+             <div id=message></div>
+             <div id=rightAnswer></div>
+             <div id=photo></div>
+
+        <!-- Scoring -->
+            <div id=finalMessage></div>
+            <div id=rightAnswers></div>
+            <div id=wrongAnswers></div>
+            <div id=unanswered></div>
+            <div id="startOverBtn"></div>
     </div>
-
-
-
-
-
-
+    
+             
+           
 
     <script src="assets/javascript/app.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
-
-

@@ -1,18 +1,18 @@
 body {
     background: url(../images/trivia\ page.png) no-repeat;
     background-size: 100%;
+    background-color: rgb(156, 35, 35);
     background-position: center;
-    padding: 0 40px 0 40px;
+    padding: 10px 25px 10px 25px;
     margin: 0 20px 0 20px;
 }
 
 .btn {
     padding: 10px 100px;
-    margin-bottom: 0;
-    margin-top: 1000px;
-    background-color: rgb(233, 79, 79);
+    margin-bottom: 50px;
+    margin-top: 900px;
+    background-color:rgb(24, 100, 172);
     font-size: 24px;
-    color: rgb(24, 100, 172);
+    color: whitesmoke;
     margin-left: 350px;
-    
 }
