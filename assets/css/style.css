@@ -1,5 +1,5 @@
 body {
-    background: url(../images/trivia\ page.png) no-repeat;
+    background: url(../images/trivia\ page\ background.png) no-repeat;
     background-size: 100%;
     background-color: rgb(156, 35, 35); 
     background-position: center;
@@ -16,16 +16,33 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: whitesmoke;
-    margin-left: 350px;
-    float: left;
+    margin-left: 500px;
 }
 
-#time-holder {
-    margin-top: 400px;
+#timer {
+    margin-top: 200px;
     text-align: center;
 }
 
-#image-holder {
-    width: 500px;
-    float: left;
+h2 {
+    background-color:rgb(156, 35, 35);
+    color: black; 
+    text-align: center;
 }
+
+img {
+    width: 500px;
+    margin-left: 300px; 
+    border-radius: 20px;
+        
+}
+
+h3 {
+    color: whitesmoke;
+    }
+
+
+
+
+
+
