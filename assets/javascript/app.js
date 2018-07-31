@@ -141,7 +141,7 @@ $(document).ready(function () {
 	function displayImage() {
 		if (count === 0) {
 			$("#image-placement").show();
-			$("#image-placement").html('<img src="assets/images/Q1.JPG">');
+			$("#image-placement").html('<img src="assets/images/Q1.jpg">');
 		}
 		else if (count === 1) {
 			$("#image-placement").show();
