@@ -1,18 +1,31 @@
 body {
     background: url(../images/trivia\ page.png) no-repeat;
     background-size: 100%;
-    background-color: rgb(156, 35, 35);
+    background-color: rgb(156, 35, 35); 
     background-position: center;
-    padding: 10px 25px 10px 25px;
-    margin: 0 20px 0 20px;
+    padding: 10px 25px 10px 25px; 
+    margin: 100px 20px 0 20px; 
+    
 }
 
 .btn {
-    padding: 10px 100px;
+    padding: 10px 80px;
     margin-bottom: 50px;
-    margin-top: 900px;
+    margin-top: 800px;
     background-color:rgb(24, 100, 172);
     font-size: 24px;
+    font-weight: bold;
     color: whitesmoke;
     margin-left: 350px;
+    float: left;
+}
+
+#time-holder {
+    margin-top: 400px;
+    text-align: center;
+}
+
+#image-holder {
+    width: 500px;
+    float: left;
 }
