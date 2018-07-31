@@ -103,7 +103,7 @@ $(document).ready(function () {
 	}
 
 	function resetTime() {
-		time = 3;
+		time = 26;
 	}
 
 	function displayTime() {
@@ -129,7 +129,7 @@ $(document).ready(function () {
 	function stopTime() {
 		clearInterval(ticker);
 		resetTime();
-		if (count < question.length - 1) {
+		if (count < question.length -1) {
 			setTimeout(startTime, 2000);
 			setTimeout(displayQuestion, 3000);
 		}
@@ -173,7 +173,7 @@ $(document).ready(function () {
 		}
 		else if (count === 8) {
 			$("#image-placement").show();
-			$("#image-placement").html('<img src="assets/images/Q9.jpg">');
+			$("#image-placement").html('<img src="assets/images/q9-peter-pan.jpg">');
 		}
 		else if (count === 9) {
 			$("#image-placement").show();
@@ -181,12 +181,16 @@ $(document).ready(function () {
 		}
 	}
 
-	// Show Results Function   
+
+	
+	// Results Function   
 	function showResults() {
+	if (count <10) {
 		$("#timer").empty();
 		$("#myQuestion").empty();
 		$("#answer-holder").empty();
 		$("#image-placement").empty();
+	} else {
 		$("#correct-holder").show();
 		$("#correct-holder").html("Correct: " + correct);
 		$("#incorrect-holder").show();
@@ -194,7 +198,8 @@ $(document).ready(function () {
 		$("#unanswered-holder").show();
 		$("#unanswered-holder").html("Unanswered: " + unanswered);
 		$("#restart-holder").show();
-		$("#restart-holder").html("Click Start above to play again!");
+		$("#restart-holder").html("Click Start to play again!");
+		}
 	}
 
 	// Reset Results Function 

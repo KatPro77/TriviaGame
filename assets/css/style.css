@@ -9,7 +9,7 @@ body {
 }
 
 .btn {
-    padding: 10px 80px;
+    padding: 10px 200px;
     margin-bottom: 50px;
     margin-top: 800px;
     background-color:rgb(24, 100, 172);
@@ -40,6 +40,89 @@ img {
 h3 {
     color: whitesmoke;
     }
+
+
+    @media (max-width: 980px) {
+        .container {
+            width: 100%;
+        }
+        .btn {
+            width: 100%;
+        }
+        img {
+            width: 100%;
+        }
+        .col-md-2 {
+            width: 100%;
+        }
+        .col-md-4 {
+            width: 100%;
+        }
+        .col-md-5 {
+            width: 100%;
+        }
+        .col-md-8 {
+            width: 100%;
+        }
+        .col-md-12 {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            width: 100%;
+        }
+        .btn {
+            width: 100%;
+        }
+        img {
+            width: 100%;
+        }
+        .col-md-2 {
+            width: 100%;
+        }
+        .col-md-4 {
+             width: 100%;
+        }
+        .col-md-5 {
+             width: 100%;
+        }
+        .col-md-8 {
+             width: 100%;
+        }
+        .col-md-12 {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .container {
+             width: 100%;
+        }
+        .btn {
+            width: 100%;
+        }
+        img {
+            width: 100%;
+        }
+        .col-md-2 {
+            width: 100%;
+        }
+        .col-md-4 {
+            width: 100%;
+            }
+        .col-md-5 {
+            width: 100%;
+        }
+        .col-md-8 {
+            width: 100%;
+        }
+        .col-md-12 {
+            width: 100%;
+        }
+    }
+        
 
 
 
